@@ -1,12 +1,18 @@
 /* eslint-env node */
+
+var RSVP = require('rsvp');
+
 module.exports = {
   description: '',
-  
+
   normalizeEntityName: function() {
     //noop
   },
-  
+
   afterInstall: function() {
-    return this.addBowerPackageToProject('printThis', '1.9.0');
+    return RSVP.all([
+      this.addPackageToProject('print-this'),
+      this.addAddonToProject('ember-browserify'),
+    ]);
   }
 };
