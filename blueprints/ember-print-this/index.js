@@ -11,7 +11,7 @@ module.exports = {
 
   afterInstall: function() {
     return RSVP.all([
-      this.addPackageToProject('print-this'),
+      this.addAddonToProject('print-this'),
       this.addAddonToProject('ember-browserify'),
     ]);
   }
