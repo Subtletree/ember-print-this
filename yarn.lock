@@ -2243,9 +2243,9 @@ ember-ajax@^2.4.1:
   dependencies:
     ember-cli-babel "^5.1.5"
 
-ember-browserify@^1.1.14:
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/ember-browserify/-/ember-browserify-1.1.14.tgz#30bae6fe73adf539d40cb80aa996c160614e643a"
+ember-browserify@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ember-browserify/-/ember-browserify-1.2.0.tgz#c774896dc44ab2c5c608226f31628994348a3fd5"
   dependencies:
     acorn "^5.0.3"
     broccoli-caching-writer "^3.0.3"
@@ -5453,9 +5453,9 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-"print-this@https://github.com/Subtletree/printThis.git#copy-canvas-with-dataURL":
+"print-this@https://github.com/Subtletree/printThis#module-and-clone":
   version "1.10.0"
-  resolved "https://github.com/Subtletree/printThis.git#eb525c9decc569f91071629283beedc7ed7bc5c7"
+  resolved "https://github.com/Subtletree/printThis#a36807b295d1e84cda0e2c722e1c4740830f0d50"
   dependencies:
     jquery "~1.11"
 

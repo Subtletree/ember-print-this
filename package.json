@@ -19,10 +19,10 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-browserify": "^1.1.14",
+    "ember-browserify": "^1.2.0",
     "ember-cli-babel": "^5.1.7",
     "ember-cli-htmlbars": "^1.1.1",
-    "print-this": "https://github.com/Subtletree/printThis.git#use-clone-withDataAndEvents-for-form-values"
+    "print-this": "https://github.com/Subtletree/printThis#module-and-clone"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
