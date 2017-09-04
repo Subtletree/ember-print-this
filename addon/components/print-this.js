@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import layout from '../templates/components/print-this';
-import 'npm:print-this';
+// import printThis from 'npm:print-this';
 
 export default Ember.Component.extend({
   layout,
@@ -23,8 +23,6 @@ export default Ember.Component.extend({
   _print() {
     const printSelector = this.get('printSelector') || `.${this.get('defaultPrintClass')}`;
     const options = this.get('options') || {};
-    this.get('_jQuery')(printSelector).printThis(options);
-  },
-
-  _jQuery: Ember.$
+    Ember.$(printSelector).printThis(options);
+  }
 });
